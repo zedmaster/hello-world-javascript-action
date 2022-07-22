@@ -21,3 +21,5 @@ runs:
       shell: bash          
     - run: goodbye.sh
       shell: bash
+    - run: goodbye
+      shell: bash

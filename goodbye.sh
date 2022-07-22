@@ -1,1 +1,1 @@
-echo "Goodbye"
+echo "sh say: Goodbye"
