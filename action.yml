@@ -19,7 +19,11 @@ runs:
       shell: bash
     - run: echo "${{ github.action_path }}" >> $GITHUB_PATH
       shell: bash          
-    - run: goodbye.sh
+    - run: sh-goodbye.sh
       shell: bash
-    - run: goodbye
+    - run: go-goodbye
+      shell: bash
+    - run: rust-goodbye
+      shell: bash
+    - run: python3 py-goodbye.py
       shell: bash

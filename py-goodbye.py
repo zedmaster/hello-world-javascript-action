@@ -1,0 +1,1 @@
+print('python say : Goodbye')
